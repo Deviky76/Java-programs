@@ -15,9 +15,19 @@ public class Array_Lis2 {
 		carlist.add("Volva");
 		carlist.add("Honda");
 		
-		System.out.println(carlist.contains("Audi"));
+		System.out.println(carlist.contains("Maruthi"));
 		
-
+		//Checking the element is present in the given list or not
+		
+		if(carlist.contains("Volva"))
+		{
+			System.out.println("Test Pass");
+		}
+		else
+		{
+			System.out.println("Test Fail");
+		}
+	
 	}
 
 }
