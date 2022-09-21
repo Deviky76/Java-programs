@@ -15,6 +15,7 @@ public class Do_While_loop1 {
 		}
 		while (i<=10);	
 		
+		System.out.println("End of the Do While Loop");
 	}
 
 }
